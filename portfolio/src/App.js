@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+import ShrinkingBackground from "./components/ShrinkingBackground";
 import About from "./components/About";
 import Galleries from "./components/Galleries";
 import Contact from "./components/Contact";
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="font-sans text-gray-900">
       <Hero />
+      <ShrinkingBackground />
       <About />
       <Galleries />
       <Contact />
